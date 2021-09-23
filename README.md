@@ -2,6 +2,8 @@
 
 A script, which will show you the currently logged in AWS-profile, when using [aws-vault](https://github.com/99designs/aws-vault).
 
+Inspired by [kube-ps1](https://github.com/jonmosco/kube-ps1).
+
 ## Installing
 
 Clone the repository and source `aws-vault-ps1.sh` in your `~/.zshrc` or `~/.bashrc`
