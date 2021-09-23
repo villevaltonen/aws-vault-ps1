@@ -4,7 +4,7 @@ A script, which will show you the currently logged in AWS-profile, when using [a
 
 ## Installing
 
-Clone the repository and source the aws-vault-ps1.sh in your `~/.zshrc` or `~/.bashrc`
+Clone the repository and source `aws-vault-ps1.sh` in your `~/.zshrc` or `~/.bashrc`
 
 #### Zsh
 ```zsh
