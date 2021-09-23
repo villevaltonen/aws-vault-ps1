@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 awson() {
   AWS_VAULT_SHOW=true
 }
