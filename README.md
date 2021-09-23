@@ -13,6 +13,7 @@ PROMPT='$(aws_vault_ps1)'$PROMPT
 ```
 
 #### Bash
+```bash
 source /path/to/aws-vault-ps1.sh
 PS1='$(aws_vault_ps1'$PS1
 ```
