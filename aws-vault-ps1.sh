@@ -1,11 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 awson() {
-  AWS_VAULT_SHOW=true
+  AWS_VAULT_SHOW="true"
 }
 
 awsoff() {
-  AWS_VAULT_SHOW=false
+  AWS_VAULT_SHOW="false"
 }
 
 aws_vault_ps1() {
@@ -13,9 +13,10 @@ aws_vault_ps1() {
     exit
   fi
 
-  aws_profile=$AWS_VAULT
-  if [[ ${#aws_profile} -gt 0 ]]; then
-    echo  "(AWS:${aws_profile}) "
+  local AWS_PROFILE
+  AWS_PROFILE=$AWS_VAULT
+  if [[ ${#AWS_PROFILE} -gt 0 ]]; then
+    echo  '(AWS:'${AWS_PROFILE}') '
     exit
   fi
   echo ""
