@@ -1,6 +1,6 @@
 # aws-vault-ps1: aws-vault prompt for bash and zsh
 
-A script, which will show the currently logged in AWS-profile in the prompt, when using [aws-vault](https://github.com/99designs/aws-vault).
+A script, which will show the currently logged in AWS-profile within prompt, when using [aws-vault](https://github.com/99designs/aws-vault).
 
 Inspired by [kube-ps1](https://github.com/jonmosco/kube-ps1).
 
